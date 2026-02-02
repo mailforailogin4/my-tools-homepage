@@ -58,6 +58,9 @@
             gap: 30px;
             margin-top: 50px;
             padding: 0 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .tool-card {
@@ -224,40 +227,6 @@
                 padding: 25px;
             }
         }
-        
-        .tool-card.featured {
-            border: 2px solid #ffd700;
-            position: relative;
-        }
-        
-        .featured-badge {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: #ffd700;
-            color: #333;
-            padding: 5px 10px;
-            border-radius: 20px;
-            font-size: 0.8em;
-            font-weight: bold;
-        }
-        
-        .feature-list {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        
-        .feature-list li {
-            font-size: 0.9em;
-        }
-        
-        @media (max-width: 768px) {
-            .feature-list {
-                grid-template-columns: 1fr;
-            }
-        }
     </style>
 </head>
 <body>
@@ -323,134 +292,6 @@
                         <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/>
                     </svg>
                 </a>
-            </div>
-
-            <!-- Tool Card 3: Complete Invoice System -->
-            <div class="tool-card featured">
-                <div class="featured-badge">NEW & IMPROVED</div>
-                <div class="tool-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
-                    </svg>
-                </div>
-                <h2>Complete Invoice System</h2>
-                <p>Professional GST-compliant invoices with WhatsApp sharing, QR kiosk display, and comprehensive business management.</p>
-                
-                <ul class="features feature-list">
-                    <li>GST-compliant invoice generation</li>
-                    <li>WhatsApp sharing & QR payments</li>
-                    <li>Auto-save & draft management</li>
-                    <li>Stock & customer management</li>
-                    <li>Credit ledger & payment tracking</li>
-                    <li>Barcode scanning integration</li>
-                    <li>Multi-device sync capability</li>
-                    <li>Sales dashboard & analytics</li>
-                    <li>PDF export & printing</li>
-                    <li>Backup & restore functionality</li>
-                </ul>
-                
-                <a href="https://invoice-flow-pro.netlify.app" target="_blank" class="btn">
-                    Launch Invoice System
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/>
-                    </svg>
-                </a>
-            </div>
-            
-            <!-- Tool Card 4: TextFormatPro -->
-            <div class="tool-card">
-                <div class="tool-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
-                    </svg>
-                </div>
-                <h2>TextFormatPro</h2>
-                <p>A powerful browser-based text editor with advanced formatting, spell checking, and HTML conversion capabilities.</p>
-                <ul class="features">
-                    <li>Rich text formatting with multiple fonts</li>
-                    <li>Spell & grammar checking with suggestions</li>
-                    <li>Find & replace with highlighting</li>
-                    <li>HTML conversion and export</li>
-                    <li>Text statistics and readability analysis</li>
-                    <li>File upload and download support</li>
-                    <li>Image and table insertion</li>
-                    <li>Line numbering and color customization</li>
-                </ul>
-                <a href="https://resilient-custard-24dc9f.netlify.app" target="_blank" class="btn">
-                    Launch TextFormatPro
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/>
-                    </svg>
-                </a>
-            </div>
-            
-            <!-- Tool Card 5: TextSculptor -->
-            <div class="tool-card">
-                <div class="tool-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M5 4v3h5.5v12h3V7H19V4z"/>
-                    </svg>
-                </div>
-                <h2>TextSculptor</h2>
-                <p>Advanced text manipulation tool with precise character selection, extraction, and file processing capabilities.</p>
-                <ul class="features">
-                    <li>Precise character-by-character selection</li>
-                    <li>Text extraction and removal tools</li>
-                    <li>Find and replace functionality</li>
-                    <li>Phrase highlighting between markers</li>
-                    <li>File upload with multiple format support</li>
-                    <li>Export to PDF with pagination</li>
-                    <li>Character position tracking</li>
-                    <li>Scroll navigation for large texts</li>
-                </ul>
-                <a href="https://textsculptureai5.netlify.app/" target="_blank" class="btn">
-                    Launch TextSculptor
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/>
-                    </svg>
-                </a>
-            </div>
-            
-            <!-- Tool Card 6: Emergency Backup & Recovery -->
-            <div class="tool-card featured">
-                <div class="featured-badge">SAFETY FIRST</div>
-                <div class="tool-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
-                    </svg>
-                </div>
-                <h2>Emergency Backup & Recovery</h2>
-                <p>A critical safety tool to rescue and convert your Residents Association data when the main app stops working.</p>
-                
-                <ul class="features feature-list">
-                    <li>Extract ALL data from JSON backups</li>
-                    <li>Convert to CSV for Google Sheets</li>
-                    <li>Generate printable PDF reports</li>
-                    <li>Maintenance payment recovery</li>
-                    <li>Bank transaction extraction</li>
-                    <li>Event & expense data rescue</li>
-                    <li>Complete financial summaries</li>
-                    <li>Works offline - no internet needed</li>
-                    <li>Preserves all member records</li>
-                    <li>Professional PDF formatting</li>
-                    <li>Date range filtering</li>
-                    <li>Emergency instructions included</li>
-                </ul>
-                
-                <div style="display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap;">
-                    <a href="https://assobackuptocsvwithuseguidejio.netlify.app" target="_blank" class="btn" style="background: linear-gradient(135deg, #4caf50, #8bc34a);">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
-                        Launch Converter
-                    </a>
-                    <a href="https://residents-association-manager.netlify.app" target="_blank" class="btn" style="background: linear-gradient(135deg, #2196f3, #21cbf3);">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/>
-                        </svg>
-                        Main App
-                    </a>
-                </div>
             </div>
         </div>
 
